@@ -22,5 +22,13 @@ Instruções rápidas
 Notas legais
 -----------
 - Atribuição obrigatória: “Dados: OpenFoodFacts — https://world.openfoodfacts.org — ODbL v1.0.”  
-- Ao redistribuir o DB derivado, disponibilize a cópia derivada sob ODbL e inclua atribuição.
+-- Ao redistribuir o DB derivado, disponibilize a cópia derivada sob ODbL e inclua atribuição.
+
+Download do snapshot publicado:
+- https://github.com/anubisbr/dispenso/releases/tag/untagged-a615218cc56809b0cfd5
+
+Verifique o checksum após download:
+```bash
+shasum -a 256 products_br.db
+```
 
