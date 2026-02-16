@@ -1,0 +1,17 @@
+Release instructions for products_br.db
+-------------------------------------
+
+1) Place `products_br.db` in this folder.
+2) Compute SHA256:
+   shasum -a 256 products_br.db > products_br.db.sha256
+
+3) Create a GitHub Release:
+   - Go to your repository → Releases → Draft a new release.
+   - Choose tag (e.g., v1.0) and title.
+   - In "Attach binaries by dropping them here or selecting them", upload `products_br.db` and `products_br.db.sha256`.
+   - In the release notes, include attribution text:
+     "Derived product database from OpenFoodFacts (https://world.openfoodfacts.org). License: ODbL v1.0."
+   - Publish the release.
+
+4) Update the app About/Settings "Licença dos dados" screen to point to the Release URL.
+

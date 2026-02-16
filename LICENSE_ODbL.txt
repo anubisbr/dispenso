@@ -1,0 +1,12 @@
+Open Database License (ODbL) v1.0 — Reference
+------------------------------------------------
+
+This package includes a derived database generated from OpenFoodFacts data. OpenFoodFacts data is made available under the Open Database License (ODbL) v1.0.
+
+Refer to the official license for full terms:
+https://opendatacommons.org/licenses/odbl/
+
+Redistribution notes:
+- If you distribute a derived database (e.g., bundling `products_br.db` with an app), you must provide the derived database under ODbL and give attribution to the original source.
+- Include a download link and checksum for the distributed derived DB.
+
